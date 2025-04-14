@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Mobile Avançado</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reponsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+</head>
+<body>
+
+  <header>
+    <div class="menu-icon" id="menu-icon">
+      <span></span><span></span><span></span>
+    </div>
+    <h1>Dev.Leandro</h1>
+    <label class="switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <nav id="side-menu" class="closed">
+    <ul>
+      <li><a href="#first">Início</a></li>
+      <li><a href="#second">Sobre mim</a></li>
+      <li><a href="#third">Habilidades</a></li>
+      <li><a href="#fourth">Projetos</a></li>
+      <li><a href="#fifth">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="first" class="reveal first">
+      <div class="typewriter">
+        <h1>Oi, eu sou o Leandro Santos!</h1>
+        <h1 class="h-two">Desenvolvedor Front-End</h1>
+        <p> apaixonado por criar experiências incríveis na web!</p>
+        <a href="https://github.com/leandrowork03" class="a-btn">GitHub</a>
+      </div>
+      <div>
+        <img src="./assets/minhaft.jpg" alt="minha foto" class="profile">
+      </div>
+</section>
+  <section id="second" class="reveal second">
+
+    <div class="container-about">
+
+      <div class="about-me">
+        <img src="./assets/me.jpeg" alt="eu">
+      <p>Leandro santos coder</p>
+    </div>
+    <div class="info">
+      <h3>Sobre mim</h3>
+      <h1 class="h-two">Leandro santos</h1>
+      <p>Sou desenvolvedor front-end com base sólida em JavaScript, React e TypeScript. Tenho domínio sobre a lógica por trás das interações, organização do código, consumo de APIs e criação de interfaces modernas, acessíveis e funcionais. Não sigo fórmulas prontas — entendo o que estou fazendo, e cada projeto que entrego reflete isso. Minha abordagem une clareza, performance e foco na experiência do usuário. Estou sempre evoluindo, mas já atuo com confiança em cada etapa do desenvolvimento.</p>
+    </div>
+    </div>
+  </section>
+  <section id="third" class="reveal third">
+    <h1>Habilidades:</h1>
+    <ul class="skills">
+      <li>
+        <i class="devicon-html5-plain"></i>
+        <p>HTML</p>
+      </li>
+      <li>
+        <i class="devicon-css3-plain"></i>
+        <P>CSS</P>
+      </li>
+      <li>
+        <i class="devicon-javascript-plain"></i>
+        <P>JavaScript</P>
+      </li>
+      <li>
+        <i class="devicon-react-original"></i>
+        <P>React</P>
+      </li>
+      <li>
+        <i class="devicon-typescript-plain"></i>
+        <p>TypeScript</p>
+      </li>
+      <li>
+        <i class="devicon-git-plain"></i>
+        <p>Git</p>
+      </li>
+      <li>
+        <i class="devicon-github-original"></i>
+        <p>Github</p>
+      </li>
+    </ul>
+  </section>
+  <section id="fourth" class="reveal fourth">
+    <h1>Projetos:</h1>
+    <p>Toque para ver</p>
+    <div class="card-container">
+      <div class="card">
+        <div class="card-front card-one">
+          <h4>Controle financeiro</h4>
+          <img src="./assets/financeiro.png" alt="">
+          <p>Projeto desenvolvido com foco em organização financeira familiar, onde o usuário pode registrar suas receitas e despesas de forma prática, com suporte a filtros e visualização gráfica dos dados.</p>
+        </div>
+        <div class="card-back">
+          <h4>Sistesma e funcionalidades</h4>
+          <p>Sistema de Controle de Gastos Pessoais desenvolvido com HTML, CSS e JavaScript (ESModules). Utiliza LocalStorage para persistência de dados, Chart.js para visualização gráfica (pizza e linha), html2pdf.js para exportação em PDF, e possui modo escuro, filtros por data e categoria, além de funcionalidades de CRUD completo.</p>
+          <div class="buttons">
+            <button>ver projeto</button>
+            <button>GitHub</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-front card-two">
+          <h4>Mini-loja e-commerce</h4>
+          <img src="./assets/otaku.png" alt="">
+          <p>Projeto de Loja Virtual com Carrinho de Compras:
+            Sistema de e-commerce estático com exibição de produtos, carrossel promocional, busca e filtro por categoria, modo noturno, visualização detalhada de produto e carrinho de compras persistente com JavaScript e localStorage.</p>
+        </div>
+        <div class="card-back">
+          <h4>Sistesma e funcionalidades</h4>
+          <p>O projeto "Loja Incrível" é um e-commerce desenvolvido com HTML, CSS e JavaScript puro. A aplicação conta com carrossel animado, sistema de filtro de produtos por nome e categoria, modo noturno, carrinho de compras funcional com atualização em tempo real, e layout responsivo adaptado para diferentes tamanhos de tela. Toda a lógica foi construída com JavaScript vanilla, utilizando manipulação direta do DOM, event listeners e estrutura modular para organização do código.</p>
+          <div class="buttons">
+            <button>ver projeto</button>
+            <button>GitHub</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="fifth" class="reveal fifth">
+    <h1>Contato:</h1>
+    <ul class="contact">
+      <li>
+        <a href="https://wa.me/5551994089203"><i class="fa-brands fa-whatsapp"></i></a>
+        <p>+55 51 99408-9203</p>
+      </li>
+     <li>
+      <a href=""><i class="fa-regular fa-envelope"></i></a>
+      <p>leandrowork03@gmail.com</p>
+     </li>
+     <li>
+      <a href="https://www.linkedin.com/in/leandro-santos-front-end/"><i class="fa-brands fa-linkedin"></i></a>
+      <p>leandro santos</p>
+     </li>
+     <li>
+      <a href="https://github.com/leandrowork03"><i class="fa-brands fa-github"></i></a>
+      <p>@leandrowork03</p>
+     </li>
+    </ul>
+  </section>
+
+  <button id="btnTopo">↑</button>
+  <script src="./js/script.js"></script>
+  <script src="https://kit.fontawesome.com/510ff49e9a.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
