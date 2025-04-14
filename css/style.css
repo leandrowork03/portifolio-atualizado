@@ -388,11 +388,17 @@ section.active {
   color: white;
  
 }
+.card-front img{
+  border: 3px solid black;
+}
 .card-back {
   background-color: #2196F3;
   color: white;
   transform: rotateY(180deg);
   font-size: 13px;
+}
+.card-back a{
+  padding-left: 8px;
 }
 .card-one{
   background-color: green;
