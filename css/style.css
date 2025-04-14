@@ -56,7 +56,6 @@ header {
   transition: 0.4s;
 }
 
-/* animação X */
 .menu-icon.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -165,7 +164,7 @@ section {
   justify-content: center;
   align-items: center;
   font-size: 32px;
-  background-color: var(--section-bg);
+  background-color: var(--section-bg); 
   border-bottom: 1px solid #ccc;
   opacity: 0;
   transform: translateY(30px);
@@ -224,7 +223,7 @@ section.active {
 }
 
 .profile:hover{
-  box-shadow: 0 0 15px var(--borders);
+  width: 310px;
 }
 
 #btnTopo {
@@ -294,6 +293,7 @@ section.active {
 .about-me.appear {
   opacity: 1;
   transform: translateX(0); 
+}
 .info p{
   color: white;
   font-family: sans-serif;
@@ -442,4 +442,4 @@ section.active {
   font-family: sans-serif;
   font-size: 15px;
 }
-}
+
