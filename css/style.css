@@ -358,7 +358,7 @@ section.active {
 
 .card {
   width: 250px;
-  height: 350px;
+  height: 360px;
   border-radius: 10px;
   transform-style: preserve-3d;
   transition: transform 0.5s;
@@ -384,33 +384,52 @@ section.active {
 }
 
 .card-front {
-  background-color: #ce851f;
   color: white;
  
 }
+.card-front h4{
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-bottom: 3px solid black;
+  border-right: 3px solid black;
+  padding: 5px;
+}
+.card-front p{
+  border: 3px solid rgb(111, 111, 18);
+  padding: 7px;
+  background-color: #ffffff67;
+  color: #000000;
+}
 .card-front img{
   border: 3px solid black;
+  padding: 2px;
 }
 .card-back {
-  background-color: #2196F3;
+  background-image: url(../assets/back.jpg);
+  background-size: cover;
   color: white;
   transform: rotateY(180deg);
   font-size: 13px;
 }
 .card-back a{
   padding-left: 8px;
+  color: white;
+}
+
+.x h4, .x p, .x a{
+  background-color: #000000bd;
 }
 .card-one{
-  background-color: green;
+  background-image: url(../assets/verde.jpg);
 }
 .card-two{
-  background-color: slateblue;
+  background-image: url(../assets/card1.png);
 }
 .card-three{
-  background-color: #3b1C7C;
+  background-image: url(../assets/cinza.jpg);
 }
 .card-fourth{
-  background-color: #1b1b1b;
+  background-image: url(../assets/preto.jpg);
 }
 .fourth {
   opacity: 0;
