@@ -332,7 +332,7 @@ section.active {
 }
 .skills p{
   line-height: 0;
-
+  font-size: 30px;
 }
 .third {
   opacity: 0;
