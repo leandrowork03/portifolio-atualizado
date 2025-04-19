@@ -1,3 +1,9 @@
+@media(max-width:1280px){
+    .fourth{
+        height:1100px;
+    }
+}
+
 @media(max-width:1080px){
     .first{
         font-size: 15px;
@@ -15,7 +21,7 @@
         flex-wrap: wrap;
     }
     .fourth{
-       
+       height: 1000px;
         line-height: 0;
     }
     .fourth h1{
@@ -64,6 +70,7 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+   
 }
 @media(max-width:700px){
     .info p{
@@ -74,7 +81,7 @@
         align-items: center; 
       }
     .fourth{
-        height: 1000px;
+        height: 1900px;
     }
     .container-about img{
         display: block;
@@ -98,7 +105,7 @@
         padding: 10px;
     }
     .third{
-        height: 800px;
+        height: 900px;
     }
     
     .first img{

@@ -406,6 +406,12 @@ section.active {
 .card-two{
   background-color: slateblue;
 }
+.card-three{
+  background-color: #3b1C7C;
+}
+.card-fourth{
+  background-color: #1b1b1b;
+}
 .fourth {
   opacity: 0;
   padding: 40px 20px;
