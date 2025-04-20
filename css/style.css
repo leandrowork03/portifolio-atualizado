@@ -1,19 +1,20 @@
 :root {
-  --bg: #fff;
-  --text: #222;
-  --menu-bg: #333;
-  --menu-text: #fff;
-  --section-bg: #f0f0f0; 
-  --borders: #2196F3;
-}
-
-body.dark {
   --bg: #121212;
   --text: #e0e0e0;
   --menu-bg: #1e1e1e;
   --menu-text: #fff;
   --section-bg: #000000; 
+  --borders: #2196F3;
 }
+
+body.dark {
+  --bg: #fff;
+  --text: #222;
+  --menu-bg: #333;
+  --menu-text: #fff;
+  --section-bg: #f0f0f0; 
+}
+
 
 body {
   margin: 0;
