@@ -347,6 +347,7 @@ section.active {
 }
 .fourth{
   flex-direction: column;
+  height: 1100px;
 }
 
 .card-container {
@@ -431,6 +432,9 @@ section.active {
 }
 .card-fourth{
   background-image: url(../assets/preto.jpg);
+}
+.card-five{
+  background-image: url(../assets/amarelo.png);
 }
 .fourth {
   opacity: 0;
